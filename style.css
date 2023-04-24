@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Oswald&family=Playfair+Display:ital@1&family=Sedgwick+Ave+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar {
+    background-color: rgb(189, 186, 186);
+    width: 300px;
+    /* font-family: 'Sedgwick Ave Display', cursive; */
+    font-family: 'Alkatra', cursive;
+    height: auto;
+}
+
+.sidebar nav {
+    padding: 20px;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color:  rgb(149, 208, 238); */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(202, 9, 128); */
+    height: 38vw;
+    width: 80vw;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hello {
+    font-size: 60px;
+
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Alkatra', cursive;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 30px;
+    margin-top: 23px;
+    font-family: 'Alkatra', cursive;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devpic img {
+    height: 38vh;
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 120px;
+    font-family: 'Alkatra', cursive;
+}
+
+.contactform h1{
+    font-family: 'Oswald', sans-serif;
+    padding :12px 0;
+}
+
+.contactform div{
+    padding: 7px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform div input{
+width: 16vw;
+border-radius: 5px;
+margin: 6px 0 0 0;
+padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+.navstyle{
+    font-size: 50px;
+}
+
+#form-check{
+   flex-direction: row;
+}
+
+#form-check input{
+   width: 25px;
+   margin: 3px 0;
+}
+
+.blogitem{
+margin: 20px;
+font-family: 'Oswald', sans-serif;
+}
+
+.blogContainer h2{
+    font-family: 'Oswald', sans-serif;
+    margin: 23px;
+}
+
+.blogItem p{
+    font-family: 'Alkatra', cursive;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    margin: 23px;
+}
+
+p{
+    font-family: 'Alkatra', cursive;
+}
+.intro h2{
+    font-family: 'Oswald', sans-serif;
+    margin:12px;
+}
+
+.intro.p{
+    font-family: 'Alkatra', cursive;
+    margin:12px;
+}
+.intro h1 p{
+    margin-left: 10px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+.blogItem{
+    margin-left:10px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    margin-left:10px;
+}
+.skill{
+    width: 265px;
+    height:6px;
+    background-color: red;
+    border: 2px solid black;
+    margin-left: 5px;
+}
+.hundered{
+    width: 265px;
+    background-color: pink;
+}
+.fifty{
+    width: 125px;
+    background-color: aquamarine;
+}
+.t5{
+    width: 75px;
+    background-color: yellowgreen;
+}
+/* .sidebarcontact{
+    background-color: rgb(189, 186, 186);
+    width: 300px;
+    /* font-family: 'Sedgwick Ave Display', cursive; */
+    /* font-family: 'Alkatra', cursive;
+    height: auto;
+    text-decoration: none;
+
+} */
