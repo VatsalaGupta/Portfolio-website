@@ -210,9 +210,19 @@ p{
     background-color: aquamarine;
 }
 .t5{
-    width: 75px;
+    width: 75px; 
     background-color: yellowgreen;
 }
+
+@media (max-width:1650px){
+    *{
+        /* background-color: aqua; */
+    }
+}
+/* .sidebar{
+    transform: translate(-443px, 0px);
+    position: absolute;
+} */
 /* .sidebarcontact{
     background-color: rgb(189, 186, 186);
     width: 300px;
